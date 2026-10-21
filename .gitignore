@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Secrets and local settings
+.env
+*.env
+*_key*.txt
+credentials*.json
+session*.json
+
+# Data, logs and outputs
+logs/
+*.log
+data/
+*.db
+*.sqlite
+reports/
+output*/
+exports/
+
+# Models
+models/
+*.gguf
+*.safetensors
+*.ckpt
+*.pt
+
+# OS
+Thumbs.db
+.DS_Store
